@@ -32,4 +32,4 @@ jobs:
           platforms: linux/amd64,linux/arm64
           tags: |
             ghcr.io/ninekama/skills-publish-docker-images/stackoverflown:main
-            ghcr.io/ninekama/skills-publish-docker-images/stackoverflown:${{ github.sha }}
+            ghcr.io/ninekama/skills-publish-docker-images/stackoverflown:${{ github.sha }} 
